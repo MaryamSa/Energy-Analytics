@@ -1,8 +1,8 @@
 regions:
   nordic_hydro:
     label: Nordic hydro proxy
-    lat_min: 55.0
-    lat_max: 71.0
+    lat_min: 56.0
+    lat_max: 72.0
     lon_min: 5.0
     lon_max: 32.0
   germany:
