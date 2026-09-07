@@ -1,0 +1,20 @@
+regions:
+  nordic_hydro:
+    label: Nordic hydro proxy
+    lat_min: 55.0
+    lat_max: 71.0
+    lon_min: 5.0
+    lon_max: 32.0
+  germany:
+    label: Germany proxy
+    lat_min: 47.0
+    lat_max: 55.0
+    lon_min: 5.0
+    lon_max: 16.0
+  france:
+    label: France proxy
+    lat_min: 42.0
+    lat_max: 51.5
+    lon_min: -5.0
+    lon_max: 8.5
+
