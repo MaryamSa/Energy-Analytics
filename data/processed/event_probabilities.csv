@@ -1,0 +1,91 @@
+region,region_label,valid_time,metric,metric_label,probability_pct
+nordic_hydro,Nordic hydro proxy,2026-09-08 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,24.068
+nordic_hydro,Nordic hydro proxy,2026-09-09 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,46.134
+nordic_hydro,Nordic hydro proxy,2026-09-10 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,27.004
+nordic_hydro,Nordic hydro proxy,2026-09-11 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,22.774
+nordic_hydro,Nordic hydro proxy,2026-09-12 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,17.290
+nordic_hydro,Nordic hydro proxy,2026-09-13 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,16.166
+nordic_hydro,Nordic hydro proxy,2026-09-14 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,15.082
+nordic_hydro,Nordic hydro proxy,2026-09-15 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,15.975
+nordic_hydro,Nordic hydro proxy,2026-09-16 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,24.603
+nordic_hydro,Nordic hydro proxy,2026-09-17 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,24.186
+germany,Germany proxy,2026-09-08 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,0.377
+germany,Germany proxy,2026-09-09 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,15.727
+germany,Germany proxy,2026-09-10 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,35.736
+germany,Germany proxy,2026-09-11 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,4.540
+germany,Germany proxy,2026-09-12 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,8.865
+germany,Germany proxy,2026-09-13 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,4.319
+germany,Germany proxy,2026-09-14 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,6.214
+germany,Germany proxy,2026-09-15 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,3.364
+germany,Germany proxy,2026-09-16 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,9.787
+germany,Germany proxy,2026-09-17 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,13.653
+france,France proxy,2026-09-08 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,0.658
+france,France proxy,2026-09-09 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,31.935
+france,France proxy,2026-09-10 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,17.322
+france,France proxy,2026-09-11 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,2.635
+france,France proxy,2026-09-12 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,3.407
+france,France proxy,2026-09-13 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,2.251
+france,France proxy,2026-09-14 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,2.101
+france,France proxy,2026-09-15 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,0.757
+france,France proxy,2026-09-16 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,5.216
+france,France proxy,2026-09-17 00:00:00+00:00,precip_ge_5mm_24h,Area-mean gridpoint probability of ≥5 mm precipitation in 24 h,5.684
+nordic_hydro,Nordic hydro proxy,2026-09-07 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.274
+nordic_hydro,Nordic hydro proxy,2026-09-08 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,9.789
+nordic_hydro,Nordic hydro proxy,2026-09-08 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,4.470
+nordic_hydro,Nordic hydro proxy,2026-09-09 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.210
+nordic_hydro,Nordic hydro proxy,2026-09-09 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,3.267
+nordic_hydro,Nordic hydro proxy,2026-09-10 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.359
+nordic_hydro,Nordic hydro proxy,2026-09-10 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.908
+nordic_hydro,Nordic hydro proxy,2026-09-11 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.066
+nordic_hydro,Nordic hydro proxy,2026-09-11 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.613
+nordic_hydro,Nordic hydro proxy,2026-09-12 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,7.567
+nordic_hydro,Nordic hydro proxy,2026-09-12 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,9.642
+nordic_hydro,Nordic hydro proxy,2026-09-13 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,8.221
+nordic_hydro,Nordic hydro proxy,2026-09-13 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.823
+nordic_hydro,Nordic hydro proxy,2026-09-14 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,4.628
+nordic_hydro,Nordic hydro proxy,2026-09-14 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,5.510
+nordic_hydro,Nordic hydro proxy,2026-09-15 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,7.110
+nordic_hydro,Nordic hydro proxy,2026-09-15 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,8.832
+nordic_hydro,Nordic hydro proxy,2026-09-16 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,9.127
+nordic_hydro,Nordic hydro proxy,2026-09-16 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,8.373
+nordic_hydro,Nordic hydro proxy,2026-09-17 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,7.920
+germany,Germany proxy,2026-09-07 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.012
+germany,Germany proxy,2026-09-08 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.126
+germany,Germany proxy,2026-09-08 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.611
+germany,Germany proxy,2026-09-09 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.533
+germany,Germany proxy,2026-09-09 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.446
+germany,Germany proxy,2026-09-10 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,3.272
+germany,Germany proxy,2026-09-10 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.375
+germany,Germany proxy,2026-09-11 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.890
+germany,Germany proxy,2026-09-11 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.842
+germany,Germany proxy,2026-09-12 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.531
+germany,Germany proxy,2026-09-12 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.514
+germany,Germany proxy,2026-09-13 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.943
+germany,Germany proxy,2026-09-13 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.664
+germany,Germany proxy,2026-09-14 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.259
+germany,Germany proxy,2026-09-14 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.359
+germany,Germany proxy,2026-09-15 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.940
+germany,Germany proxy,2026-09-15 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.517
+germany,Germany proxy,2026-09-16 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.855
+germany,Germany proxy,2026-09-16 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.520
+germany,Germany proxy,2026-09-17 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.411
+france,France proxy,2026-09-07 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.070
+france,France proxy,2026-09-08 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.536
+france,France proxy,2026-09-08 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,8.245
+france,France proxy,2026-09-09 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,3.431
+france,France proxy,2026-09-09 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,3.580
+france,France proxy,2026-09-10 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,4.057
+france,France proxy,2026-09-10 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.767
+france,France proxy,2026-09-11 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.028
+france,France proxy,2026-09-11 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.791
+france,France proxy,2026-09-12 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.916
+france,France proxy,2026-09-12 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.508
+france,France proxy,2026-09-13 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.407
+france,France proxy,2026-09-13 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.607
+france,France proxy,2026-09-14 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.838
+france,France proxy,2026-09-14 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.702
+france,France proxy,2026-09-15 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,0.832
+france,France proxy,2026-09-15 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,1.480
+france,France proxy,2026-09-16 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.770
+france,France proxy,2026-09-16 12:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,2.689
+france,France proxy,2026-09-17 00:00:00+00:00,wind10_ge_10ms,Area-mean gridpoint probability of 10 m wind ≥10 m/s,3.193
