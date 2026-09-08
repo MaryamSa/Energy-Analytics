@@ -1,0 +1,124 @@
+name: regenerate forecast products
+
+on:
+  workflow_dispatch:
+    inputs:
+      forecast_date:
+        description: "Forecast date (YYYY-MM-DD). Leave empty for the latest complete run."
+        required: false
+        type: string
+      forecast_hour:
+        description: "Forecast initialisation hour (UTC)"
+        required: true
+        default: "0"
+        type: choice
+        options:
+          - "0"
+          - "12"
+      data_source:
+        description: "ECMWF Open Data source"
+        required: true
+        default: ecmwf
+        type: choice
+        options:
+          - ecmwf
+          - google
+          - aws
+          - azure
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      FORECAST_DATE: ${{ inputs.forecast_date }}
+      FORECAST_HOUR: ${{ inputs.forecast_hour }}
+      DATA_SOURCE: ${{ inputs.data_source }}
+      MPLBACKEND: Agg
+
+    steps:
+      - name: Check out the selected branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install the project
+        run: python -m pip install -e ".[test]"
+
+      - name: Validate the requested date
+        if: env.FORECAST_DATE != ''
+        shell: bash
+        run: |
+          if [[ ! "$FORECAST_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "forecast_date must use YYYY-MM-DD format" >&2
+            exit 1
+          fi
+
+      - name: Download data and regenerate products
+        shell: bash
+        run: |
+          arguments=(--hour "$FORECAST_HOUR" --source "$DATA_SOURCE")
+          if [[ -n "$FORECAST_DATE" ]]; then
+            arguments+=(--date "$FORECAST_DATE")
+          fi
+          energy-weather-risk "${arguments[@]}"
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Upload generated results
+        uses: actions/upload-artifact@v4
+        with:
+          name: energy-weather-results-${{ github.run_number }}
+          path: |
+            data/processed/
+            figures/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit changed results
+        shell: bash
+        run: |
+          git add data/processed figures
+          if git diff --cached --quiet; then
+            echo "The generated results are unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Regenerate ECMWF forecast products"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Write run summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Energy-weather workflow"
+            echo
+            echo "- Branch: $GITHUB_REF_NAME"
+            echo "- Requested date: ${FORECAST_DATE:-latest complete run}"
+            echo "- Initialisation hour: ${FORECAST_HOUR} UTC"
+            echo "- Data source: $DATA_SOURCE"
+            if [[ -f data/processed/run_metadata.json ]]; then
+              echo
+              echo '```json'
+              cat data/processed/run_metadata.json
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
