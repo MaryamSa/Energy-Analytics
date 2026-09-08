@@ -106,6 +106,21 @@ The ten PCA components retain 82.4% of the weighted variance in this example. Th
 
 Raw GRIB files are not stored in Git because they are large and can be downloaded again. The default run downloads about 250 MB, although the size can change between forecast cycles.
 
+## Run directly on GitHub
+
+You can regenerate the results without installing Python on your computer:
+
+1. Edit `config/regions.yml` on GitHub and commit the change.
+2. Open the **Actions** tab in the repository.
+3. Select **regenerate forecast products** from the workflow list.
+4. Select **Run workflow**.
+5. Leave the forecast date empty to use the latest complete run, or enter a date as `YYYY-MM-DD`.
+6. Choose the forecast hour and data source, then start the run.
+
+The workflow installs the project, downloads about 250 MB of ECMWF data, recreates the tables and figures, and runs the tests. It then commits changed files from `data/processed/` and `figures/` back to the selected branch. It also stores the results as a downloadable GitHub artifact for 30 days.
+
+The raw GRIB files are not committed. If you select a new forecast date, remember that the example text in this README may need to be updated because the numerical conclusions will be different.
+
 ## Run the project
 
 Python 3.11 or newer is required.
