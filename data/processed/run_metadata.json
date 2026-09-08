@@ -1,9 +1,9 @@
 {
-  "forecast_initialisation_utc": "2026-09-07T00:00:00Z",
+  "forecast_initialisation_utc": "2026-09-08T00:00:00Z",
   "forecast_horizon_hours": 240,
   "circulation_cluster_lead_hours": 240,
   "cluster_count": 4,
-  "pca_retained_variance_fraction": 0.823847,
+  "pca_retained_variance_fraction": 0.844459,
   "ecmwf_source": "ecmwf",
   "models": [
     "AIFS ENS",
