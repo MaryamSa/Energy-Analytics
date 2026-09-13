@@ -1,4 +1,4 @@
-# ECMWF Ensemble Energy Weather Risk Monitor
+# Ensemble Forecast Analysis and Weather Risk Monitor
 
 I made this project to explore how ECMWF ensemble forecasts can be used in European energy analytics. My background is in scientific modelling, Python and large multidimensional datasets. I wanted to apply these skills to a practical weather problem and learn more about ensemble weather prediction.
 
