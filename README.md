@@ -13,6 +13,16 @@ I use the data to answer four questions:
 
 This is a weather-analysis example. It is not a forecast of electricity prices, demand, hydropower or wind generation.
 
+## Related analysis: European gas markets
+
+I have also started exploring how weather conditions could affect natural gas demand and supply balances in Europe.
+
+This extension uses a simplified monthly gas balance model to examine demand under different temperature scenarios. It also includes basic data checks for LNG import records.
+
+The current example uses synthetic data and is separate from the ECMWF forecasting pipeline.
+
+More details are available in [European Gas Market Analysis](README_GAS.md).
+
 ## Why use an ensemble forecast?
 
 One weather forecast gives only one possible future. An ensemble contains many forecasts with slightly different starting conditions or model behaviour. Looking at all members gives more information about uncertainty.
