@@ -1,0 +1,8 @@
+month,region,origin,cargo_id,volume_twh
+2027-01,Northwest Europe (demo),Origin A,SYN-JAN-A,27
+2027-01,Northwest Europe (demo),Origin B,SYN-JAN-B,27
+2027-02,Northwest Europe (demo),Origin A,SYN-FEB-A,24
+2027-02,Northwest Europe (demo),Origin B,SYN-FEB-B,25
+2027-03,Northwest Europe (demo),Origin A,SYN-MAR-A,46
+2027-04,Northwest Europe (demo),Origin A,SYN-APR-A,41
+2027-05,Northwest Europe (demo),Origin A,SYN-MAY-A,38

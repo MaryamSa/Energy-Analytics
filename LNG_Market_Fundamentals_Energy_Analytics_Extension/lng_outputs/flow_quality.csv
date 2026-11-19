@@ -1,0 +1,7 @@
+month,region,baseline_lng_imports_twh,reported_lng_twh,data_present,difference_twh,quality_flag
+2027-01,Northwest Europe (demo),54,54.0000,True,0.0000,OK
+2027-02,Northwest Europe (demo),49,49.0000,True,0.0000,OK
+2027-03,Northwest Europe (demo),46,46.0000,True,0.0000,OK
+2027-04,Northwest Europe (demo),41,41.0000,True,0.0000,OK
+2027-05,Northwest Europe (demo),40,38.0000,True,-2.0000,MISMATCH
+2027-06,Northwest Europe (demo),40,0.0000,False,-40.0000,MISSING
