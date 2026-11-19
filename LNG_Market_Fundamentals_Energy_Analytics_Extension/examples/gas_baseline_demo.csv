@@ -1,0 +1,7 @@
+month,region,domestic_supply_twh,pipeline_imports_twh,baseline_lng_imports_twh,baseline_demand_twh,storage_change_twh,normal_hdd,forecast_hdd,twh_per_hdd
+2027-01,Northwest Europe (demo),18,65,54,154,-17,420,440,0.14
+2027-02,Northwest Europe (demo),17,60,49,142,-16,360,340,0.14
+2027-03,Northwest Europe (demo),18,63,46,137,-10,300,310,0.13
+2027-04,Northwest Europe (demo),18,62,41,112,9,185,170,0.11
+2027-05,Northwest Europe (demo),19,60,40,100,19,95,90,0.08
+2027-06,Northwest Europe (demo),19,61,40,94,26,35,30,0.05
